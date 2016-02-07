@@ -25,4 +25,8 @@
               driverClass="net.sourceforge.jtds.jdbc.Driver,com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
     </extension>
 
+    <extension point="org.eclipse.ui.preferencePages">
+        <page category="org.jkiss.dbeaver.preferences.drivers" id="org.jkiss.dbeaver.preferences.mssql.general" class="org.jkiss.dbeaver.ext.mssql.views.PrefPageMsSql" name="MS SQL">
+        </page>
+    </extension>
 </plugin>
